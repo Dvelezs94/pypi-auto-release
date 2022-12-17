@@ -11,23 +11,19 @@ with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
 VERSION = '{{VERSION_PLACEHOLDER}}'
 
 # CHANGEME VARS
-PACKAGE_NAME = "pypi-auto-release"
-DESCRIPTION = 'Automatic releases for PyPi'
-LONG_DESCRIPTION = 'Sample project for automatic releases to PyPi'
-AUTHOR_NAME = "Diego Velez"
-AUTHOR_EMAIL = "diegovelezs94@gmail.com"
-PROJECT_URL = "https://github.com/Dvelezs94/pypi-auto-release"
+PACKAGE_NAME = "drscook_utilities"
+DESCRIPTION = 'helpful utilities'
+LONG_DESCRIPTION = 'helpful utilities'
+AUTHOR_NAME = "Scott Cook"
+AUTHOR_EMAIL = "scook@tarleont.edu"
+PROJECT_URL = "https://github.com/drscook/drscook_utilities"
 REQUIRED_PACKAGES = ['numpy'] # required 3rd party tools used by your package
 PROJECT_KEYWORDS = ['pypi', 'python', 'automation', 'cicd']
 # Read more about classifiers at
 # https://pypi.org/classifiers/
 CLASSIFIERS = [
-        "Development Status :: 1 - Planning",
-        "Intended Audience :: Developers",
-        "Programming Language :: Python :: 3",
-        "Operating System :: Unix",
-        "Operating System :: MacOS :: MacOS X",
-        "Operating System :: Microsoft :: Windows"]
+        "Programming Language :: Python :: 3"
+]
 
 setup(
     name=PACKAGE_NAME,
